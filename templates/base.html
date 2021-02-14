@@ -25,7 +25,7 @@
 {% endif %}
 {% endwith %}
 <div id="navbar" class="w-100 mx-auto text-center p-3">
-    <h3><a href="/">🐍 Barbados URL Shortener</a></h3>
+    <h3><a href="/">Neb.cx URL Shortener</a></h3>
     <span class="justify-content-end">
         {% if session.get("user") %}
         <a href="/urls" class="btn btn-dark">Your URLs</a>
@@ -34,8 +34,8 @@
         {% if github_auth_enabled %}
         <a href="/login" class="btn btn-dark">Login with GitHub</a>
         {% endif %}
-        <a href="/users/login" class="btn btn-dark">Login with Barbados</a> 
-        <a href="/users/register" class="btn btn-dark">Register with Barbados</a>
+        <a href="/users/login" class="btn btn-dark">Login with neb.cx/a> 
+        <a href="/users/register" class="btn btn-dark">Register with neb.cx</a>
         {% endif %}
     </span>
 </div>
