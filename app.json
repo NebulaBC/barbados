@@ -1,14 +1,14 @@
 {
-    "name": "Barbados URL Shortener",
-    "description": "This app does one thing, makes short URLs.",
+    "name": "Neb.cx Url Shortener",
+    "description": "The URL Shortener for NebulaBC.net",
     "keywords": [
       "productivity",
       "python",
       "flask"
     ],
-    "website": "https://github.com/bryanbrunetti/barbados",
-    "repository": "https://github.com/bryanbrunetti/barbado",
-    "logo": "https://avatars0.githubusercontent.com/oa/1236397",
+    "website": "nebulabc.net",
+    "repository": "https://github.com/cheesybc/barbado",
+    "logo": "https://minecraftskinstealer.com/api/v1/skin/download/cube/nebulabc",
     "scripts": {
       "postdeploy": "python db_setup.py"
     },
