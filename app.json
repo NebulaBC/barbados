@@ -7,7 +7,7 @@
       "flask"
     ],
     "website": "nebulabc.net",
-    "repository": "https://github.com/cheesybc/barbado",
+    "repository": "https://github.com/nebulabc/nebcx",
     "logo": "https://minecraftskinstealer.com/api/v1/skin/download/cube/nebulabc",
     "scripts": {
       "postdeploy": "python db_setup.py"
